@@ -5,9 +5,8 @@
       "default": true
     }
   ],
-  "name": "Logistics Application",
+  "name": "Logistics App",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
 }
-
