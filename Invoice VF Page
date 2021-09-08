@@ -1,0 +1,44 @@
+<apex:page renderAs="pdf" standardController="Invoice1__c">
+    <div style="background-color:gray;">
+        <h1>
+            <center style = "font-size:25px;">
+                ABC Limited. <br/><br/> 
+                INVOICE
+            </center>
+        </h1> <br/><br/>
+        
+    </div>
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:outputText value="{!Invoice1__c.Name__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.Address__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.Street__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.City__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.Postal_Code__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            
+            <apex:outputText value="{!Invoice1__c.Shipping_Charges__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.Sub_Total__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.Discount__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            <apex:outputText value="{!Invoice1__c.Grand_Total__c}">
+            </apex:outputText><br/><br/><br/>
+            
+            
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
